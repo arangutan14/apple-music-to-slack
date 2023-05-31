@@ -1,0 +1,6 @@
+export xoxp-2316133292-2485980378644-5375409944368-19b6cf0c8e44919e9da8b291d5082eb8=xoxp-11111-11111-11111-111111111111
+while true; do
+    ./target/debug/apple-music-to-slack;
+    # slack rates limit at anything less than 5 requests/second
+    sleep 10;
+done
